@@ -26,7 +26,15 @@ struct ContentView: View {
             Spacer()
             Spacer()
             
-            
+            ZStack(alignment: .center) {
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Text("Login").foregroundColor(Color.black)
+
+                Capsule()
+                    .frame(width: 75.0, height: 50.0)
+            }
+            .padding()
+            }
             
         }
         
