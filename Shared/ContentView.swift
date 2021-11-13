@@ -9,8 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack {
+            
+            Image("instaorderlogo")
+                .resizable()
+                .aspectRatio( contentMode: .fit).padding()
+            
+            Spacer()
+            
+            TextField("Username", text: .constant(""))
+                .padding(.horizontal)
+            TextField("Password", text: .constant(""))
+                .padding(.horizontal)
+            
+            Spacer()
+            Spacer()
+            
+            
+            
+        }
+        
     }
 }
 
