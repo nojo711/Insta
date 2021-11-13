@@ -86,7 +86,7 @@
 		2E191EE1273F45DC00BDCA35 = {
 			isa = PBXGroup;
 			children = (
-				2E191EE6273F45DC00BDCA35 /* Shared */,
+				2E191EE6273F45DC00BDCA35 /* Main */,
 				2E191EF5273F45DE00BDCA35 /* macOS */,
 				2E191EFE273F45DE00BDCA35 /* Tests iOS */,
 				2E191F0A273F45DE00BDCA35 /* Tests macOS */,
@@ -94,14 +94,14 @@
 			);
 			sourceTree = "<group>";
 		};
-		2E191EE6273F45DC00BDCA35 /* Shared */ = {
+		2E191EE6273F45DC00BDCA35 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				2E191EE7273F45DC00BDCA35 /* InstaApp.swift */,
 				2E191EE8273F45DC00BDCA35 /* ContentView.swift */,
 				2E191EE9273F45DE00BDCA35 /* Assets.xcassets */,
 			);
-			path = Shared;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		2E191EEF273F45DE00BDCA35 /* Products */ = {
